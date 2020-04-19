@@ -37,7 +37,7 @@ void GetInt(int& variable, string _variableName, string variableName, string var
 	if (variableName == _variableName)
 	{
 		variable = stoi(valuestring);
-	}
+	} 
 }
 
 void GetString(string& variable, string _variableName, string variableName, string variableValue)
